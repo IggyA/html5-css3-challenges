@@ -1,0 +1,46 @@
+h1 {
+    color: green;
+}
+
+em, strong {
+    color: orange;
+}
+
+ul>li>ul>li {
+    color: red;
+}
+
+a {
+    color: blue;
+}
+
+table,td,th {
+    border-style: groove;
+    border-width: 2px;
+    border-color: darkgrey;
+}
+
+td {
+    color: purple;
+}
+
+label,fieldset {
+    color: darkred;
+}
+
+footer ul{
+    padding: 0;
+}
+
+footer ul li{
+    list-style-type: none;
+    display: inline;
+}
+
+footer ul li::before{
+    content: "\20 \7C \20";
+}
+
+footer ul li:first-child::before {
+    content: "";
+}

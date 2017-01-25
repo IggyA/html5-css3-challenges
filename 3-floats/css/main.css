@@ -1,0 +1,39 @@
+body {
+  height: 900px;
+  border-top-width: 20px;
+  border-left-width: 30px;
+  border-bottom-width: 40px;
+  border-right-width: 10px;
+  border-style: solid;
+  border-color: #F3F3F3; 
+}
+
+header {
+  background-color: #838283;
+  height: 200px;
+}
+
+nav {
+  background-color: #A2A2A2;
+  height: 50px;
+}
+
+aside {
+  background-color: hsl(0, 0%, 20%);
+  float: left;
+  width: 25%;
+  height: 450px;
+}
+
+main {
+  background-color: rgb(210, 207, 210);
+  float: right;
+  width: 75%;
+  height: 450px;
+}
+
+footer {
+  background-color: #838283;
+  clear: both;
+  height: 100px;
+}
